@@ -51,12 +51,12 @@ if (proceed1 == true) {
 
     alert("🍀🍀🍀🍀🍀Great Job for now🍀🍀🍀🍀🍀\n Now try to answer with ✔️yes || ❌no\n on the followung 3 questions,\n in case you don't like to answer any of them for any reason just leave it empty");
 
-    var isDriver = prompt("do you have a driver's license? ✔️yes || ❌no");
-    var isWorking = prompt("do you have a job currently? ✔️yes || ❌no");
-    var isMarried = prompt("are you married currently? ✔️yes || ❌no");
-    if (isDriver !== "yes" && isDriver !== "Yes" && isDriver !== "YES" && isDriver !== "no" && isDriver !== "No" && isDriver !== "NO") { isDriver = "invalid" }
-    if (isWorking !== "yes" && isWorking !== "Yes" && isWorking !== "YES" && isWorking !== "no" && isWorking !== "No" && isWorking !== "NO") { isWorking = "invalid" }
-    if (isMarried !== "yes" && isMarried !== "Yes" && isMarried !== "YES" && isMarried !== "no" && isMarried !== "No" && isMarried !== "NO") { isMarried = "invalid" }
+    var isDriver = prompt("do you have a driver's license? ✔️yes (y) || ❌no (no)");
+    var isWorking = prompt("do you have a job currently? ✔️yes (y) || ❌no (no)");
+    var isMarried = prompt("are you married currently? ✔️yes (y) || ❌no (no)");
+    if (isDriver !== "y"&& isDriver !== "Y" &&isDriver !== "yes" && isDriver !== "Yes" && isDriver !== "YES" && isDriver !== "n" && isDriver !== "N" && isDriver !== "no" && isDriver !== "No" && isDriver !== "NO") { isDriver = "invalid" }
+    if (isWorking !== "y" && isWorking !== "Y" &&isWorking !== "yes" && isWorking !== "Yes" && isWorking !== "YES" && isWorking !== "n" && isWorking !== "N" && isWorking !== "no" && isWorking !== "No" && isWorking !== "NO") { isWorking = "invalid" }
+    if (isMarried !== "y" && isMarried !== "Y" &&isMarried !== "yes" && isMarried !== "Yes" && isMarried !== "YES" && isMarried !== "n" && isMarried !== "N" && isMarried !== "no" && isMarried !== "No" && isMarried !== "NO") { isMarried = "invalid" }
 }
 var userData = [userName, userGender, userAge, isDriver, isWorking, isMarried];
 
