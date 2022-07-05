@@ -24,7 +24,7 @@ body {
 }
 
 #logo {
-    background-image: url("/assets/logo.png");
+    background-image: url("/todo-project/assets/logo.png");
     background-repeat: no-repeat;
     padding-right: 256px;
     padding-left: 256px;
@@ -55,7 +55,7 @@ td {
     margin: 0;
     background: no-repeat;
     padding: 20px;
-    background-image: url("/assets/github-logo.png");
+    background-image: url("/todo-project/assets/github-logo.png");
     filter: opacity(100%);
     background-size: contain;
     display: flex;
@@ -65,7 +65,7 @@ td {
     margin: 0;
     background: no-repeat;
     padding: 24px;
-    background-image: url("/assets/logo.png");
+    background-image: url("/todo-project/assets/logo.png");
     filter: opacity(100%);
     background-size: contain;
     display: flex;
@@ -117,40 +117,47 @@ li a:hover:not(.active) {
 .active {
     background-color: #0C92BF;
 }
+
 .bottom-footer {
     font-size: small;
     display: flex;
     justify-content: center;
-margin-top: 5px;
+    margin-top: 5px;
 }
+
 .bottom-footer i {
     color: #000000;
 }
+
 .bottom-footer a {
     margin: 0 5px 0 5px;
     color: #000000;
 }
+
 .heart {
     color: rgb(255, 0, 0);
 
 }
+
 .bottom-footer a:visited {
     color: #00000000;
 }
-.footer-link a:hover{
+
+.footer-link a:hover {
     color: #0C92BF;
 }
+
 .fa-solid {
     font-size: 15px;
     padding: 3px;
 }
 
-/* ============================================== */
 
 #profile-pic {
     width: 30%;
-        border-radius: 50%; 
+    border-radius: 50%;
 }
+
 #about {
     display: flex;
     align-items: center;
