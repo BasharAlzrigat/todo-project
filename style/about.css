@@ -24,7 +24,7 @@ body {
 }
 
 #logo {
-    background-image: url("/todo-project/assets/logo.png");
+    background-image: url("../assets/logo.png");
     background-repeat: no-repeat;
     padding-right: 256px;
     padding-left: 256px;
@@ -42,7 +42,7 @@ body {
     margin: 0;
     background: no-repeat;
     padding: 20px;
-    background-image: url("/todo-project/assets/github-logo.png");
+    background-image: url("../assets/github-logo.png");
     filter: opacity(100%);
     background-size: contain;
     display: flex;
@@ -52,7 +52,7 @@ body {
     margin: 0;
     background: no-repeat;
     padding: 24px;
-    background-image: url("/todo-project/assets/logo.png");
+    background-image: url("../assets/logo.png");
     filter: opacity(100%);
     background-size: contain;
     display: flex;
